@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MeterView</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="a">Timer Activity</string>
+    <string name="b">Progress Activity</string>
+    <string name="c">Battery Activity</string>
+    
+    <string name="limit">Go up to:</string>
+    <string name="interval">Invterval (ms):</string>
+    <string name="h">100</string>
+    <string name="t">1000</string>
+    <string name="set">Set</string>
+    <string name="count">Count</string>
+    
+    <string name="run">Run</string>
+    <string name="download">Download</string>
+    <string name="ru">Run</string>
+    
+    <string name="bl">Battery Level</string>
+
+</resources>

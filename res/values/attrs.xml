@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MeterViewAttr">
+        <attr name="angle" format="integer" />
+        <attr name="spacing" format="integer" />
+        <attr name="lineWidth" format="integer" />
+        <attr name="lineColor" format="color" />
+        <attr name="pathColor" format="color" />
+    </declare-styleable>
+</resources>

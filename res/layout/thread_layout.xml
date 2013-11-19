@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:meterview="http://schemas.android.com/apk/res/com.amurani.meterview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" >
+        <TableRow>
+            <TextView
+                android:text="@string/limit"
+                android:layout_height="wrap_content" 
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center" />
+            <TextView
+                android:text="@string/interval"
+                android:layout_height="wrap_content" 
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center" />
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/upto"
+                android:hint="@string/h"
+                android:inputType="number"
+                android:layout_height="wrap_content" 
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center" />
+            <EditText
+                android:id="@+id/interval"
+                android:hint="@string/t"
+                android:inputType="number"
+                android:layout_height="wrap_content" 
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center" />
+        </TableRow>
+        <TableRow>
+			<Button
+                android:id="@+id/reset"
+                android:text="@string/set"
+                android:layout_height="wrap_content" 
+                android:layout_width="fill_parent"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/count"
+                android:text="@string/count"
+                android:layout_height="wrap_content" 
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:enabled="false" />
+        </TableRow>
+    </TableLayout>
+    
+    <!-- <com.amurani.meterview.MeterView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2f2f2"
+        meterview:angle="270"
+        meterview:spacing="10"
+        meterview:lineWidth="5"
+        meterview:lineColor="#0af" /> -->
+    
+    <com.amurani.meterview.MeterView
+        android:id="@+id/meter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2f2f2"
+        meterview:spacing="10"
+        meterview:lineWidth="5"
+        meterview:lineColor="#0af"
+        meterview:pathColor="#ccc" />
+
+</LinearLayout>

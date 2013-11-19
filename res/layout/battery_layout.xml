@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:meterview="http://schemas.android.com/apk/res/com.amurani.meterview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:text="@string/bl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp" />
+    
+    <com.amurani.meterview.MeterView
+    	android:id="@+id/meter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        meterview:spacing="10"
+        meterview:lineWidth="5"
+        meterview:lineColor="#0af"
+        meterview:pathColor="#ccc" />
+
+</LinearLayout>
