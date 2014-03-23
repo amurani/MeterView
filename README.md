@@ -1,7 +1,3 @@
-MeterView
-=========
-
-Android custom view to monitor progress as an arc as opposed to a straight line.
 # MeterView
 
 This provided code allows a developer to use a circular meter to show progress in their application as opposed to the default progress indicator provided by android.
