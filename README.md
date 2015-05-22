@@ -40,17 +40,15 @@ Its object allows access to the following methods:
 Simple implementation of how to use the View are:
 
 1. in a timer,
-
-    ![Timer](https://f.cloud.github.com/assets/2022520/2366032/a992adf2-a6ec-11e3-98bf-b655cd0f21fe.png)
+    
+    <img alt="Timer" src="https://f.cloud.github.com/assets/2022520/2366032/a992adf2-a6ec-11e3-98bf-b655cd0f21fe.png" height="500px" width="auto">
 
 2. when monitoring downloads,
-
-    ![Progress](https://f.cloud.github.com/assets/2022520/2366037/db0d1a5c-a6ec-11e3-9fdf-008fd901e3d1.png)
+    
+    <img alt="Progress" src="https://f.cloud.github.com/assets/2022520/2366037/db0d1a5c-a6ec-11e3-9fdf-008fd901e3d1.png" height="500px" width="auto">
 
 3. display the battery level,
-
-    ![Battery](https://f.cloud.github.com/assets/2022520/2366039/e7dfaff6-a6ec-11e3-9f6f-09efef8cf325.png)
+    
+    <img alt="Battery" src="https://f.cloud.github.com/assets/2022520/2366039/e7dfaff6-a6ec-11e3-9f6f-09efef8cf325.png" height="500px" width="auto">
 
 More needs to be added and the code is not perfect. Improvements are greatly encouraged. Use the code as you please for I can't guaranten future or maintaian it myself.
-
-(_Sorry for the image size BTW_)
